@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exxam AI | Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 🏆 Navigation Bar -->
+    <header>
+        <div class="logo">Exxam <span>AI</span></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+            <a href="about.html">About</a>
+            <a href="chat.html" class="active">Chat</a>
+        </nav>
+    </header>
+
+    <!-- 💬 Chat Container -->
+    <section class="chat-container">
+        <div id="chat-box">
+            <div class="chat-message bot">
+                <span class="bot-name">Exxam AI:</span> Hello! How can I assist you with your exam preparation? 🚀
+            </div>
+        </div>
+
+        <!-- 🔥 User Input -->
+        <div class="chat-input-container">
+            <input type="text" id="user-input" placeholder="Ask Exxam AI anything...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </section>
+
+    <script src="chat.js"></script>
+
+</body>
+</html>
